@@ -1,0 +1,84 @@
+JS Document
+---------------------------------------------------------------------
+--> The document object represents a web page that is loaded in the browser and it accessing the document object, we can access the element in the HTML page. 
+
+--> The document object can be accessed with a "window.document" or just "document".
+
+	Ex:-
+		document.propertyName
+
+--> It is loaded after the loading window because the window contains a document.
+
+--> It is the root element of the document object model.
+
+--> We can not access windows objects properties inside the document.
+
+--> It is an object of window.	
+
+
+	logically:
+
+		document:{ properties}
+
+-->The document is part of BOM (browser object model) and dom (Document object model)
+
+Here some properties of documents
+---------------------------------
+*activeElement
+*body
+*cookie
+*URL
+*title
+*head
+
+Here some method of documents
+---------------------------------
+*addEventListener()
+*adoptNode()
+*createComment()
+*execCommand()
+*getElementById()
+*getElementsByName()
+
+
+Window Object
+-----------------------------------------------------------------------
+--> The window object is the topmost object of the DOM hierarchy. It represents a browser window or frame that displays the contents of the webpage.
+
+--> window appears on the screen to display the contents of the document, the window object is created. 
+
+	Ex:-
+		window.property_name;
+
+
+--> It is loaded before the document because window container document.
+
+--> The window is the global element for all objects, functions, etc.
+
+--> We can access document object properties inside the window.
+
+--> It is an object of the browser.
+
+	logically:
+    		window:{
+        	document:{properties}
+    		}
+--> The window is part of BOM, not DOM.
+
+Here some Properties of the window
+----------------------------------
+*Closed
+*console
+*defaultStatus
+*Document
+*fullScreen
+*Name
+
+Here some method of the window
+----------------------------------
+*alert()
+*blur()
+*close()
+*confirm()
+*prompt()
+*stop()
